@@ -9,7 +9,7 @@ type Post {
 #   firstName: String
 # }
 
-type Workout {
-  id: ID! @unique
-  name: String
-}
+# type Workout {
+#   id: ID! @unique
+#   name: String
+# }

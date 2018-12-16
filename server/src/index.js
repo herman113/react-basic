@@ -15,9 +15,9 @@ const resolvers = {
     // user: (parent, args, context) => {
     //   return context.prisma.user({ firstName })
     // },
-    workout: (parent, {name, id}, context) => {
-      return context.prisma.workout({ name, id })
-    },
+    // workout: (parent, {name, id}, context) => {
+    //   return context.prisma.workout({ name, id })
+    // },
   },
   Mutation: {
     // createUser(parent, { firstName }, context) {
@@ -25,12 +25,12 @@ const resolvers = {
     //     firstName,
     //   })
     // },
-    createWorkout(parent, { name, id }, context) {
-      return context.prisma.createWorkout({
-        name,
-        id
-      })
-    },
+    // createWorkout(parent, { name, id }, context) {
+    //   return context.prisma.createWorkout({
+    //     name,
+    //     id
+    //   })
+    // },
     createDraft(parent, { title, content }, context) {
       return context.prisma.createPost({
         title,

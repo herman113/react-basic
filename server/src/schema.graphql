@@ -19,7 +19,7 @@ type Post {
 # type User {
 #   firstName: String
 # }
-type Workout {
-  id: ID!
-  name: String
-}
+# type Workout {
+#   id: ID!
+#   name: String
+# }

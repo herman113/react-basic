@@ -27,11 +27,11 @@ mutation {
   ) {
     id
   }
-  workout1: createworkout(
-    data: {
-      name: "stairway to heaven"
-    }
-  ) {
-    id
-  }
+  # workout1: createworkout(
+  #   data: {
+  #     name: "stairway to heaven"
+  #   }
+  # ) {
+  #   id
+  # }
 }
