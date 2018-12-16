@@ -1,0 +1,14 @@
+{
+  "name": "react-basic",
+  "scripts": {
+    "start": "node src/index.js",
+    "prisma": "prisma"
+  },
+  "dependencies": {
+    "graphql-yoga": "1.16.7",
+    "prisma-client-lib": "1.22.2"
+  },
+  "devDependencies": {
+    "prisma": "1.22.1"
+  }
+}
